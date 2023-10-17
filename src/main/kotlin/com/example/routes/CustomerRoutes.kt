@@ -8,6 +8,11 @@ import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
+
+/**
+ * @author Ömer Aynaci
+ * routes defined for the customer
+ */
 fun Route.customerRoute() {
     route("/customer") {
         get {
