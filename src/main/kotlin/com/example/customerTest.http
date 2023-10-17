@@ -1,0 +1,62 @@
+POST http://localhost:8080/customer
+Content-Type: application/json
+
+{
+  "id": "200",
+  "firstName": "kees",
+  "lastName": "kaas",
+  "email": "keesvandenkaas@hotmail.com"
+}
+
+###
+POST http://localhost:8080/customer
+Content-Type: application/json
+
+{
+  "id": "500",
+  "firstName": "pieter",
+  "lastName": "bos",
+  "email": "pietervandenbos@hotmail.com"
+}
+
+###
+POST http://localhost:8080/customer
+Content-Type: application/json
+
+{
+  "id": "100",
+  "firstName": "Ömer",
+  "lastName": "Aynaci",
+  "email": "omeraynaci@hotmail.com"
+}
+
+###
+POST http://localhost:8080/customer
+Content-Type: application/json
+
+{
+  "id": "600",
+  "firstName": "Tim",
+  "lastName": "Boer",
+  "email": "timboer19@outlook.com"
+}
+
+###
+GET http://localhost:8080/customer
+Content-Type: application/json
+
+###
+GET http://localhost:8080/customer/600
+Content-Type: application/json
+
+###
+GET http://localhost:8080/customer/500
+Content-Type: application/json
+
+###
+DELETE http://localhost:8080/customer/600
+Content-Type: application/json
+
+###
+DELETE http://localhost:8080/customer/200
+Content-Type: application/json

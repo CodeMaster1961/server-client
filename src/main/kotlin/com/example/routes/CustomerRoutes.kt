@@ -47,7 +47,7 @@ fun Route.customerRoute() {
             if (customerStorage.removeIf { it.id == id }) {
                 call.respondText("Customer deleted correctly", status = HttpStatusCode.Accepted)
             } else {
-                call.respondText("Not Fount", status = HttpStatusCode.NotFound)
+                call.respondText("Not Found", status = HttpStatusCode.NotFound)
             }
         }
     }
