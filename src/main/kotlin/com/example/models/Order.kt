@@ -20,5 +20,11 @@ val orderStorage = listOf(Order(
         OrderItem("Water", 2, 1.50),
         OrderItem("Coke", 2, 1.76),
         OrderItem("Ice Cream", 1, 2.35)
+    )),
+    Order("2023-05-02-09", listOf(
+        OrderItem("Fanta", 5, 0.80),
+        OrderItem("Pasta", 10, 1.50),
+        OrderItem("Chips", 20, 1.00),
+        OrderItem("Cake", 5, 3.00)
     ))
 )
